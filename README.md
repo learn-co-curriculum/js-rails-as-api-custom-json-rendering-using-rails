@@ -221,6 +221,9 @@ end
 The above code would achieve the same result, producing only `id`, `name`, and
 `species` for each bird. All the keys _except_ `created_at` and `updated_at`.
 
+> **ASIDE:** You can also use the `only` and `except` options in the `show` action.
+> Give it a try!
+
 ## Drawing Back the Curtain on Rendering JSON Data
 
 As we touched upon briefly in the previous lesson, the controller actions we 
